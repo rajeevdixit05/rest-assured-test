@@ -25,6 +25,7 @@ dependencies {
         exclude group: 'org.testng', module: 'testng'
     }
     implementation 'io.qameta.allure:allure-rest-assured:2.13.3'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.10.3'
 
 
 }
